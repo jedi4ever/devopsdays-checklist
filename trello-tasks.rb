@@ -53,6 +53,7 @@ end
 @dday = settings[:dday]
 board_id = settings[:board_id]
 
+puts @dday
 # Set authenttication
 Trello::Authorization.const_set :AuthPolicy, OAuthPolicy
 OAuthPolicy.consumer_credential = OAuthCredential.new credentials[:public_key],credentials[:secret]
@@ -63,7 +64,7 @@ def dday(days=0)
   # If a dday has been speficied
   unless @dday.nil?
     d = @dday.split('-')
-    t = Time.local(d[0],d[1],d[2])+(3600*24)*days
+    t = Time.local(d[2],d[1],d[0])+(3600*24)*days
     return t
   else
     return nil
@@ -125,12 +126,13 @@ my_cards.each do |c|
     end
 
     unless c[:checklist].nil?
-      puts "Creating checklist #{c[:name]}-checklist"
-      checklist = Trello::Checklist.create({:name => "#{c[:name]}-checklist", :description => 'bla', :board_id => board_id })
+      c_name = "#{c[:name].strip}-checklist"
+      puts "Creating checklist #{c_name}"
+      checklist = Trello::Checklist.create({:name => "#{c_name}", :description => 'bla', :board_id => board_id })
 
       c[:checklist].split(',').each do |i|
-        puts "Adding checklistitem #{i} to #{c[:name]}-checklist"
-        checklist.add_item(i)
+        puts "Adding checklistitem #{i.strip} to #{c_name}"
+        checklist.add_item(i.strip)
       end
       checklist.update!
       card.add_checklist(checklist)
