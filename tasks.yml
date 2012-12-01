@@ -6,7 +6,8 @@
   :description: find different options for a venue.
   :checklist: price for hotel, price for catering, catering options, price per person, capacity of big room, breakout rooms
 - :name: Research Dates
-  :description: conflicts with other events, piggyback on other events, venue dates, speakers dates
+  :description: find date options , in sync with venue
+  :checklist: conflicts with other events, piggyback on other events, venue dates, speakers dates
 - :name: Announce venue and date
   :description: Final decision for date and venue
   :checklist: blog on website, twitter, facebook, googlegroup, other mailinglists
