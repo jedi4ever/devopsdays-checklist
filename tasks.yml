@@ -1,53 +1,61 @@
 ---
-- :name: Catering6
-  :description: we really need to find a venue
-  :checklist: avond,ochtend,morgen,ennog
-  :due: -30
-- :name: Venue
-  :description: we really need to find a venue
-- :name: Site visit
-  :description: we really need to find a venue
-- :name: Speaker presents
-  :description: we really need to find a venue
-- :name: Event Date Selection
-  :description: we really need to find a venue
-- :name: Registration
-  :description: we really need to find a venue
-- :name: Sponsor Packages
-  :description: we really need to find a venue
-- :name: Hotel Packages
-  :description: we really need to find a venue
-- :name: Design logo
-  :description: we really need to find a venue
-- :name: T-shirts
-  :description: we really need to find a venue
+## Event decision
+- :name: Assemble Team
+  :description: find a list of about 5 volunteers to get things started
+- :name: Find possible venues
+  :description: find different options for a venue.
+  :checklist: price for hotel, price for catering, catering options, price per person, capacity of big room, breakout rooms
+- :name: Find possible dates
+  :description: conflicts with other events, piggyback on other events, venue dates, speakers dates
+- :name: Decide - Announce venue and date
+  :description: Final decision for date and venue
+  :checklist: blog on website, twitter, facebook, googlegroup, other mailinglists
+- :name: Distribute team tasks
+  :description: make sure every task has at least one person with a focus on it
+  :checklist: venue, catering, speakers, ignitetalks, t-shirts, streaming, presenting event, presenting ignites, logistics on site, invoicing, registration handling, publish on website
+
+## Preparation work
+- :name: Pick a theme
+  :description: to give the event a good focus it can be useful to create a global event theme
 - :name: Call for proposals
-  :description: we really need to find a venue
-- :name: Notify attendees of final program
-  :description: we really need to find a venue
-- :name: Notify speakers
-  :description: we really need to find a venue
-- :name: Notify ignites
-  :description: we really need to find a venue
-- :name: Invoices
-  :description: we really need to find a venue
-- :name: Schedule weekly sync call
-  :description: we really need to find a venue
-- :name: Sponsoring
-  :description: we really need to find a venue
-- :name: Social Event
-  :description: we really need to find a venue
-- :name: Publish program
-  :description: we really need to find a venue
-- :name: Retrospective
-  :description: we really need to find a venue
-- :name: Pre-event meetup
-  :description: we really need to find a venue
-- :name: Publish videos
-  :description: we really need to find a venue
-- :name: Collect presentations
-  :description: we really need to find a venue
+  :description: launch call for proposals on website
+- :name: Decide Sponsor Packages
+  :description: depending on pricing of venue, sponsors, size make up a gold and silver sponsor package
+- :name: Hotel options
+  :description: find hotels nearby and possibly get discount codes, publish on website
+- :name: Design logo
+  :description:  logo for the T-shirt, get a quote
+- :name: T-shirts
+  :description: manage the ordering of T-shirts
+  :checklist: get quote for print, pass on artwork, get them printed
+  :due: -20
+- :name: Find options for evening event
+  :description: the first evening it is nice to have a social event. (if sponsoring permits)
+- :name: Finalize program
+  :description: select the talks, ignites and format
+  :checklist: publish on website, inform speakers, inform attendees, inform ignites
+  :due: -20
 - :name: Streaming
-  :description: we really need to find a venue
+  :description: see if streaming is an option and who can do it
+  :checklist: check bmc, check local cameraman, check hotel bandwith
+- :name: Schedule weekly sync call
+  :description: 1 month before the event it is good to have weekly calls to synchronize the work
+  :due: -30
+
+## Right for the event
+- :name: Venue final checkup
+  :description: final visit to site to see if all is arranged correctly
+
+## After the event
+- :name: Retrospective
+  :description: get together with the team and see what can be improved next time
+- :name: Invoices Attendees
+  :description: send invoices to attendees and finalize sponsor invoices
 - :name: Publish videos
-  :description: we really need to find a venue
+  :description: get all the videos and put them/link them on the site
+- :name: Publish presentations
+  :description: get all the speaker and ignite presentations and put them/link them on the site
+  :checklist: presentations , ignites
+- :name: Publish reactions
+  :description: find reactions on the internet and link them on the site
+  :checklist: blogs, images
