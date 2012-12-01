@@ -1,0 +1,4 @@
+rvm use ruby-1.9.2@trello-tasks --create
+
+alias irb="bundle exec irb"
+alias trello-tasks="bundle exec ruby trello-tasks.rb"

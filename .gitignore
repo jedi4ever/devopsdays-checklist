@@ -1,0 +1,5 @@
+credentials.yml
+!tasks/*
+!sample/*
+*.swp
+Gemfile.lock

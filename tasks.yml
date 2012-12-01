@@ -1,0 +1,53 @@
+---
+- :name: Catering6
+  :description: we really need to find a venue
+  :checklist: avond,ochtend,morgen,ennog
+  :due: -30
+- :name: Venue
+  :description: we really need to find a venue
+- :name: Site visit
+  :description: we really need to find a venue
+- :name: Speaker presents
+  :description: we really need to find a venue
+- :name: Event Date Selection
+  :description: we really need to find a venue
+- :name: Registration
+  :description: we really need to find a venue
+- :name: Sponsor Packages
+  :description: we really need to find a venue
+- :name: Hotel Packages
+  :description: we really need to find a venue
+- :name: Design logo
+  :description: we really need to find a venue
+- :name: T-shirts
+  :description: we really need to find a venue
+- :name: Call for proposals
+  :description: we really need to find a venue
+- :name: Notify attendees of final program
+  :description: we really need to find a venue
+- :name: Notify speakers
+  :description: we really need to find a venue
+- :name: Notify ignites
+  :description: we really need to find a venue
+- :name: Invoices
+  :description: we really need to find a venue
+- :name: Schedule weekly sync call
+  :description: we really need to find a venue
+- :name: Sponsoring
+  :description: we really need to find a venue
+- :name: Social Event
+  :description: we really need to find a venue
+- :name: Publish program
+  :description: we really need to find a venue
+- :name: Retrospective
+  :description: we really need to find a venue
+- :name: Pre-event meetup
+  :description: we really need to find a venue
+- :name: Publish videos
+  :description: we really need to find a venue
+- :name: Collect presentations
+  :description: we really need to find a venue
+- :name: Streaming
+  :description: we really need to find a venue
+- :name: Publish videos
+  :description: we really need to find a venue
