@@ -1,61 +1,83 @@
 ---
-## Event decision
+## Event go-nogo
 - :name: Assemble Team
   :description: find a list of about 5 volunteers to get things started
-- :name: Find possible venues
+- :name: Research Venue
   :description: find different options for a venue.
   :checklist: price for hotel, price for catering, catering options, price per person, capacity of big room, breakout rooms
-- :name: Find possible dates
+- :name: Research Dayes
   :description: conflicts with other events, piggyback on other events, venue dates, speakers dates
-- :name: Decide - Announce venue and date
+- :name: Announce venue and date
   :description: Final decision for date and venue
   :checklist: blog on website, twitter, facebook, googlegroup, other mailinglists
-- :name: Distribute team tasks
+
+## Event Launch work
+- :name: Assign team tasks
   :description: make sure every task has at least one person with a focus on it
   :checklist: venue, catering, speakers, ignitetalks, t-shirts, streaming, presenting event, presenting ignites, logistics on site, invoicing, registration handling, publish on website
-
-## Preparation work
 - :name: Pick a theme
   :description: to give the event a good focus it can be useful to create a global event theme
 - :name: Call for proposals
   :description: launch call for proposals on website
-- :name: Decide Sponsor Packages
+- :name: Sponsoring
   :description: depending on pricing of venue, sponsors, size make up a gold and silver sponsor package
-- :name: Hotel options
-  :description: find hotels nearby and possibly get discount codes, publish on website
-- :name: Design logo
+  :checklist: Silver Package, Gold Package , Room for Platinum Sponsors, Publish Paypal on Website, Send mail to previous sponsors
+- :name: Registration
+  :description: set a pricing for the attendees
+  :checklist: Find local invoices, Early Bird pricing, Regular pricing, publish on Eventbrite
+
+## Event Ground work
+- :name: Logo Design
   :description:  logo for the T-shirt, get a quote
 - :name: T-shirts
   :description: manage the ordering of T-shirts
   :checklist: get quote for print, pass on artwork, get them printed
   :due: -20
-- :name: Find options for evening event
+- :name: Hotels
+  :description: find hotels nearby and possibly get discount codes
+  :checklist: publish on website
+- :name: Evening event
   :description: the first evening it is nice to have a social event. (if sponsoring permits)
-- :name: Finalize program
-  :description: select the talks, ignites and format
-  :checklist: publish on website, inform speakers, inform attendees, inform ignites
-  :due: -20
+  :checklist: publish on website
 - :name: Streaming
   :description: see if streaming is an option and who can do it
   :checklist: check bmc, check local cameraman, check hotel bandwith
 - :name: Schedule weekly sync call
   :description: 1 month before the event it is good to have weekly calls to synchronize the work
   :due: -30
+- :name: Program
+  :description: select the talks, ignites and format
+  :checklist: publish on website, inform speakers, inform attendees, inform ignites
+  :due: -20
 
-## Right for the event
+## Right before the event
+- :name: Handouts
+  :description: print program and details on paper to handout
+  :checklist: program, wificode, floorplan, openspace principles, sponsors, evening event details, hashtag
+- :name: Slides
+  :description: prepare some slides with logos of the sponsors, in between speakers, practical
+  :checklist: sponsor logos, program
 - :name: Venue final checkup
   :description: final visit to site to see if all is arranged correctly
+  :checklist: breakout rooms, signs, whiteboard for openspaces, markers, postits, video, wifi, sponsor-tables
+
+## During the event
+- :name: Site setup
+  :description: everything needed before the people come in 
+  :checklist: setup sponsor tables, 
+- :name: Reception
+  :description: everything needed to welcome the people
+  :checklist: badges, attendeelist
+- :name: Presentation
+  :description: make sure you understand who handles what of the program
+  :checklist: openspaces, ignites, welcome word, one minute pitches of vendors
 
 ## After the event
 - :name: Retrospective
   :description: get together with the team and see what can be improved next time
-- :name: Invoices Attendees
+- :name: Invoices
   :description: send invoices to attendees and finalize sponsor invoices
-- :name: Publish videos
-  :description: get all the videos and put them/link them on the site
-- :name: Publish presentations
-  :description: get all the speaker and ignite presentations and put them/link them on the site
-  :checklist: presentations , ignites
-- :name: Publish reactions
-  :description: find reactions on the internet and link them on the site
-  :checklist: blogs, images
+  :checklist: catering, sponsors, venue, attendees, t-shirts, goodies
+- :name: Publish material
+  :description: get all the material and put them/link them on the site
+  :checklist: presentations , ignites, videos, reactions
