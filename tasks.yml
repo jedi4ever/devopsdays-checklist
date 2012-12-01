@@ -5,11 +5,14 @@
 - :name: Research Venue
   :description: find different options for a venue.
   :checklist: price for hotel, price for catering, catering options, price per person, capacity of big room, breakout rooms
-- :name: Research Dayes
+- :name: Research Dates
   :description: conflicts with other events, piggyback on other events, venue dates, speakers dates
 - :name: Announce venue and date
   :description: Final decision for date and venue
   :checklist: blog on website, twitter, facebook, googlegroup, other mailinglists
+- :name: Agreement
+  :description: Agree with the conditions
+  :checklist: allow Platinum sponsors, do local invoicing, publish all content back to website
 
 ## Event Launch work
 - :name: Assign team tasks
@@ -19,6 +22,9 @@
   :description: to give the event a good focus it can be useful to create a global event theme
 - :name: Call for proposals
   :description: launch call for proposals on website
+- :name: Budget
+  :description: setup a initial budget calculation
+  :checklist: attendees, sponsors, streaming, evening event, t-shirts, eventbrite, paypal costs, invoicing costs, Oh shit costs, travel expenses, catering, venue costs
 - :name: Sponsoring
   :description: depending on pricing of venue, sponsors, size make up a gold and silver sponsor package
   :checklist: Silver Package, Gold Package , Room for Platinum Sponsors, Publish Paypal on Website, Send mail to previous sponsors
@@ -31,23 +37,29 @@
   :description:  logo for the T-shirt, get a quote
 - :name: T-shirts
   :description: manage the ordering of T-shirts
-  :checklist: get quote for print, pass on artwork, get them printed
+  :checklist: get quote for print, pass on artwork, get them printed, volunteers specials
   :due: -20
+- :name: Streaming
+  :description: see if streaming is an option and who can do it
+  :checklist: check bmc, check local cameraman, check hotel bandwith
+- :name: Intro Video
+  :description: create a fun and introductory video for the event
 - :name: Hotels
   :description: find hotels nearby and possibly get discount codes
   :checklist: publish on website
 - :name: Evening event
   :description: the first evening it is nice to have a social event. (if sponsoring permits)
   :checklist: publish on website
-- :name: Streaming
-  :description: see if streaming is an option and who can do it
-  :checklist: check bmc, check local cameraman, check hotel bandwith
 - :name: Schedule weekly sync call
   :description: 1 month before the event it is good to have weekly calls to synchronize the work
   :due: -30
 - :name: Program
   :description: select the talks, ignites and format
   :checklist: publish on website, inform speakers, inform attendees, inform ignites
+  :due: -20
+- :name: Goodies
+  :description: find some extra stuff to give away
+  :checklist: prices, speaker presents
   :due: -20
 
 ## Right before the event
@@ -64,7 +76,7 @@
 ## During the event
 - :name: Site setup
   :description: everything needed before the people come in 
-  :checklist: setup sponsor tables, 
+  :checklist: setup sponsor tables, chairs, arrange openspace
 - :name: Reception
   :description: everything needed to welcome the people
   :checklist: badges, attendeelist
