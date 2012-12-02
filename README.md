@@ -23,14 +23,14 @@ Yes specifying this from the commandline is nice, but it works for now :)
 ### Credentials.yml
 
     ---
-    :secret: your secret here
-    :key: your app key secret here
-    :public_key: your public key here
+    :secret: your secret here - the second box from https://trello.com/1/appKey/generate
+    :key: your app key secret here - the token you receive in approve file downloaded from https://trello.com/1/authorize?key=substitutewithyourapplicationkey&name=myapp&response_type=token&scope=read,write,account&expiration=never
+    :public_key: your public key here - the first box from https://trello.com/1/appKey/generate
 
 ### Settings.yml
 
     ---
-    :board_id: yourboardidhere
+    :board_id: yourboardidhere - you can extract this from the URL for your board - for example https://trello.com/board/test/50ba4eeeb01f8e6a09003528
     :dday: optional due date (use DD-MM-YYYY) format
 
 ### Tasks.yml
